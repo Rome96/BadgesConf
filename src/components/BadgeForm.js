@@ -1,7 +1,13 @@
 import React from "react";
 
 class BadgeForm extends React.Component {
-  state = {};
+  state = {
+    firstName: "",
+    lastName: "",
+    email: "",
+    jobTitle: "",
+    twitter: ""
+  };
 
   _handleChange = e => {
     // console.log({
@@ -79,10 +85,7 @@ class BadgeForm extends React.Component {
               value={this.state.twitter}
             />
           </div>
-          <button
-            onClick={this._handleClick}
-            className="btn btn-primary"
-          >
+          <button onClick={this._handleClick} className="btn btn-primary">
             Save
           </button>
         </form>

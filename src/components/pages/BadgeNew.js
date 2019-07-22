@@ -6,6 +6,7 @@ import Badge from "../Badge";
 import BadgeForm from "../BadgeForm";
 
 class BadgeNew extends React.Component {
+  
   render() {
     return (
       <div>
