@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./global.css";
 import BadgeNew from "./components/pages/BadgeNew";
 import Badges from "./components/pages/Badges";
+import App from "./components/App";
 
 
 // const name = "Turiano De Jesús";
@@ -18,4 +19,4 @@ import Badges from "./components/pages/Badges";
 const container = document.getElementById("app");
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badges />, container);
+ReactDOM.render(<App />, container);
