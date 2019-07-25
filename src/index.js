@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./global.css";
 import BadgeNew from "./components/pages/BadgeNew";
+import Badges from "./components/pages/Badges";
+
 
 // const name = "Turiano De Jesús";
 
@@ -16,4 +18,4 @@ import BadgeNew from "./components/pages/BadgeNew";
 const container = document.getElementById("app");
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<BadgeNew />, container);
+ReactDOM.render(<Badges />, container);
