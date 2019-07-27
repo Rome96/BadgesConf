@@ -1,0 +1,32 @@
+.home {
+  background-color: #100f1c;
+  background-image: url('../images/stars.svg');
+  height: 85vh;
+
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Home__Icon-image {
+  width: 600px;
+}
+
+.Home__Title {
+  margin-bottom: 5%;
+  animation: enter 2s linear;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
